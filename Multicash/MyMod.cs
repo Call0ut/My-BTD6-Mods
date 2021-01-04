@@ -12,7 +12,7 @@ namespace Multicash
     {
         static float multi = 2;
 
-
+        static string holdKey = "";
 
         static System.Random random = new System.Random();
 
@@ -34,13 +34,40 @@ namespace Multicash
             }
         }
 
+        [EventAttribute("KeyHeldEvent")]
+        public static void onHoldEvent(KeyEvent e)
+        {
+
+            string key = e.key + "";
+            if (key == "LeftShift")
+            {
+                holdKey = "LeftShift";
+            }
+
+        }
+        
+        [EventAttribute("KeyReleaseEvent")]
+        public static void onReleaseEvent(KeyEvent e)
+        {
+
+            string key = e.key + "";
+            if (key == "LeftShift")
+            {
+                holdKey = "";
+            }
+
+        }
+
+
+
+
         [EventAttribute("KeyPressEvent")]
-        public static void onEvent(KeyEvent e)
+        public static void onKeyEvent(KeyEvent e)
         {
 
             string key = e.key + "";
 
-            if (key == "F10")
+            if (key == "F10" && holdKey == "LeftShift")
             {
                 Il2CppSystem.Action<string> mod = (Il2CppSystem.Action<string>)delegate (string s)
                 {
