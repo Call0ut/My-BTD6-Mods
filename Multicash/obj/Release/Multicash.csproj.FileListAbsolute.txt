@@ -1,0 +1,5 @@
+K:\Modding\My-BTD6-Mods\Multicash\bin\Release\Multicash.dll
+K:\Modding\My-BTD6-Mods\Multicash\bin\Release\Multicash.pdb
+K:\Modding\My-BTD6-Mods\Multicash\obj\Release\Multicash.csproj.CoreCompileInputs.cache
+K:\Modding\My-BTD6-Mods\Multicash\obj\Release\Multicash.dll
+K:\Modding\My-BTD6-Mods\Multicash\obj\Release\Multicash.pdb

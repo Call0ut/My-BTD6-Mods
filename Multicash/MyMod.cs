@@ -14,8 +14,6 @@ namespace Multicash
 
         static string holdKey = "";
 
-        static System.Random random = new System.Random();
-
         public override void OnApplicationStart()
         {
             base.OnApplicationStart();
@@ -33,6 +31,21 @@ namespace Multicash
 
             }
         }
+        public override void OnUpdate()
+        {
+            base.OnUpdate();
+
+            if (testForActivity)
+            {
+                if (PopupScreen.instance.GetFirstActivePopup() != null)
+                {
+                    PopupScreen.instance.GetFirstActivePopup().GetComponentInChildren<TMP_InputField>().characterValidation = TMP_InputField.CharacterValidation.None;
+                    testForActivity = false;
+                }
+
+            }
+        }
+        static bool testForActivity;
 
         [EventAttribute("KeyHeldEvent")]
         public static void onHoldEvent(KeyEvent e)
@@ -58,9 +71,6 @@ namespace Multicash
 
         }
 
-
-
-
         [EventAttribute("KeyPressEvent")]
         public static void onKeyEvent(KeyEvent e)
         {
@@ -74,8 +84,8 @@ namespace Multicash
                     multi = float.Parse(s);
 
                 };
-                PopupScreen.instance.ShowSetNamePopup("Cash", "Multiply Cash by", mod, "2");
-                PopupScreen.instance.GetFirstActivePopup().GetComponentInChildren<TMP_InputField>().characterValidation = TMP_InputField.CharacterValidation.None;
+                PopupScreen.instance.ShowSetNamePopup("Multicash", "Multiply Cash by", mod, "2");
+                testForActivity = true;
             }
 
 

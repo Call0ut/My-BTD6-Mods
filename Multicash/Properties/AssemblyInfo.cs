@@ -14,7 +14,7 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyCopyright("Copyright ©  2020")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
-[assembly: MelonInfo(typeof(Multicash.MyMod), "Multi-Cash", "1.0.1", "Felixfex")]
+[assembly: MelonInfo(typeof(Multicash.MyMod), "Multi-Cash", "1.0.2", "Felixfex")]
 [assembly: MelonGame("Ninja Kiwi", "BloonsTD6")]
 
 // Setting ComVisible to false makes the types in this assembly not visible
