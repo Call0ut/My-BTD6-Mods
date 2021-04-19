@@ -1,5 +1,11 @@
-K:\Modding\My-BTD6-Mods\Multicash\bin\Release\Multicash.dll
-K:\Modding\My-BTD6-Mods\Multicash\bin\Release\Multicash.pdb
-K:\Modding\My-BTD6-Mods\Multicash\obj\Release\Multicash.csproj.CoreCompileInputs.cache
-K:\Modding\My-BTD6-Mods\Multicash\obj\Release\Multicash.dll
-K:\Modding\My-BTD6-Mods\Multicash\obj\Release\Multicash.pdb
+C:\Users\Felix\source\repos\Multicash\Multicash\bin\Release\Multicash.dll
+C:\Users\Felix\source\repos\Multicash\Multicash\bin\Release\Multicash.pdb
+C:\Users\Felix\source\repos\Multicash\Multicash\obj\Release\Multicash.csprojAssemblyReference.cache
+C:\Users\Felix\source\repos\Multicash\Multicash\obj\Release\Multicash.csproj.CoreCompileInputs.cache
+C:\Users\Felix\source\repos\Multicash\Multicash\obj\Release\Multicash.dll
+C:\Users\Felix\source\repos\Multicash\Multicash\obj\Release\Multicash.pdb
+C:\Users\Felix\source\repos\Multicash\Multicash\bin\Release\BloonsTD6.Mod.Helper.dll
+C:\Users\Felix\source\repos\Multicash\Multicash\bin\Release\MelonLoader.dll
+C:\Users\Felix\source\repos\Multicash\Multicash\bin\Release\UnityEngine.InputLegacyModule.dll
+C:\Users\Felix\source\repos\Multicash\Multicash\bin\Release\UnityEngine.InputModule.dll
+C:\Users\Felix\source\repos\Multicash\Multicash\obj\Release\Multicash.csproj.CopyComplete
